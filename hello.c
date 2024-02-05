@@ -20,5 +20,5 @@ static void __exit hello_end(void)
     printk(KERN_INFO "Goodbye-Teigen Millies\n"); 
 } 
   
-module_init(hello_start); 
+module_init(developer_info); 
 module_exit(hello_end); 
